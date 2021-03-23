@@ -1,12 +1,10 @@
 const express = require('express');
+const routes = require('./routes');
 
 //Create an express app
 const app = express();
 
-// Route for home
-app.use('/', (req, res) => {
-    res.send('Hellow World')
-});
+app.use('/', routes());
 
 //Port to run
 app.listen(3000);
