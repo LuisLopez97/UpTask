@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/LuisLopez97/UpTask/issues"
   },
-  "homepage": "https://github.com/LuisLopez97/UpTask#readme"
+  "homepage": "https://github.com/LuisLopez97/UpTask#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
 }
